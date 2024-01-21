@@ -17,7 +17,7 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appwrite/sdk-for-web"
+    "url": "https://github.com/timoo-006/appwrite-sdk-web"
   },
   "scripts": {
     "build": "npm run build:types && npm run build:libs",
@@ -33,9 +33,12 @@
     "typescript": "4.7.2"
   },
   "dependencies": {
-    "cross-fetch": "3.1.5",
     "isomorphic-form-data": "2.0.0"
   },
   "jsdelivr": "dist/iife/sdk.js",
-  "unpkg": "dist/iife/sdk.js"
+  "unpkg": "dist/iife/sdk.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/timoo-006"
+  }
 }

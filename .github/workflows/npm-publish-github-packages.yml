@@ -3,7 +3,11 @@
 
 name: Node.js Package
 
+# Run on commits to the repository's default branch (main)
 on:
+  push:
+    branches:
+      - main
   release:
     types: [created]
 

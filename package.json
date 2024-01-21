@@ -38,6 +38,6 @@
   "jsdelivr": "dist/iife/sdk.js",
   "unpkg": "dist/iife/sdk.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/timoo-006"
+    "registry": "https://npm.pkg.github.com"
   }
 }
